@@ -1,0 +1,112 @@
+body {
+  background: #EEE2DF;
+  background-image: url(images/plant.png);
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position:100% 100%;
+  background-size: cover
+}
+
+h1, h2, p, a {
+  font-family: 'Roboto', sans-serif
+}
+
+h1 {
+  color: #354837;
+}
+
+a {
+  color: #354837;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white
+}
+
+#intro {
+  padding: 30px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-orange {
+  background-color: #C89F9C;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-orange:hover {
+  background-color: rgb(255 255 255 / 0%);
+  color: #EEE2DF;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background: rgb(255 255 255 / 90%);
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0px 10px 30px rgb(200 159 156 / 20%);
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+
+.card-gif {
+  background-image: url(https://media.giphy.com/media/KzEslAC8lduI3ToEsl/giphy.gif);
+  background-repeat:no-repeat;
+  background-position:50% 50%;
+  background-size: cover;
+  padding: 150px;
+  border-radius: 5px;
+}
+
+.card-bottom {
+  background: #b8dbbb;
+  text-align: center;
+  color: white;
+  padding: 30px;
+  box-shadow: 0px 10px 30px rgb(184 219 187 / 20%);
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+
+#bottom {
+  color:white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 8px;
+  font-size: 26px
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
